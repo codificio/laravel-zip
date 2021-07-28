@@ -1,0 +1,27 @@
+{
+    "name": "codificio/laravel-zip",
+    "description": "A small utility to handle a zip file in Laravel",
+    "keywords": ["zip", "laravel"],
+    "authors": [
+        {
+            "name": "Enrico Nardo",
+            "email": "enrico@codificio.com"
+        }
+    ],
+    "require": {
+    },
+    "autoload": {
+        "psr-4": {
+            "LaravelZip\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "LaravelZip\\ServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
