@@ -2,6 +2,7 @@
     "name": "codificio/laravel-zip",
     "description": "A small utility to handle a zip file in Laravel",
     "keywords": ["zip", "laravel"],
+    "license": "MIT",
     "authors": [
         {
             "name": "Enrico Nardo",
@@ -9,6 +10,7 @@
         }
     ],
     "require": {
+        "php": "^7.4"
     },
     "autoload": {
         "psr-4": {
