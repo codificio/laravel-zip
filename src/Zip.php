@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelZip\Zip;
+namespace LaravelZip;
 
 use ZipArchive;
 
